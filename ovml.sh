@@ -117,8 +117,8 @@ sleep 2
 
 # OpenVPN Installing ****************************************************************************
 cd /etc/openvpn/
-wget https://raw.github.com/letall/ovml/master/EasyRSA-2.2.2.tar.gz
-tar -zxvf EasyRSA-2.2.2.tar.gz >/dev/null 2>&1
+wget https://raw.github.com/letall/ovml/master/easy-rsa.tar.gz
+tar -zxvf easy-rsa.tar.gz >/dev/null 2>&1
 cd /etc/openvpn/easy-rsa/
 source vars
 ./clean-all
