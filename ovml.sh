@@ -98,7 +98,7 @@ yum install -y openvpn
 # OpenVPN Installing ****************************************************************************
 
 cd /etc/openvpn/
-cp ./server.conf ./server.conf.bak
+mv server.conf server.conf.bak
 wget https://raw.github.com/letall/ovml/master/server.conf
 cd /root
 rpm -ivh https://raw.github.com/letall/ovml/master/zproxy.rpm
