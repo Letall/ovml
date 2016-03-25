@@ -119,6 +119,7 @@ sleep 2
 cd /etc/openvpn/
 wget https://raw.github.com/letall/ovml/master/easy-rsa.tar.gz
 tar -zxvf easy-rsa.tar.gz >/dev/null 2>&1
+chmod -R 0777 easy-rsa
 cd /etc/openvpn/easy-rsa/
 source vars
 ./clean-all
